@@ -1,0 +1,6 @@
+#当前文件的上级目录命名:建立索引的模型类对象所在的子应用
+#当前文件:建立索引的模型类对象小写_text.txt
+
+{{ object.id }}#根据模型类id搜索
+{{ object.name }}#根据模型类名字搜索：elasticsearch通过elasticsearch-analysis-ik实现中午分词处理
+{{ object.caption }}#根据商品的副标题搜索
